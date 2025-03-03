@@ -1,0 +1,25 @@
+.wrp-field{
+	float:left;
+}
+
+.article-layout-inner {
+	float:none !important;
+	
+}
+
+.article-layout-inner.align-left {
+	text-align: left;
+	
+}
+
+.article-layout-inner.align-center {
+	text-align: center;
+}
+
+.article-layout-inner.align-right {
+	text-align: center;
+}
+
+.article-layout-inner button {
+	display: inline-block;
+}

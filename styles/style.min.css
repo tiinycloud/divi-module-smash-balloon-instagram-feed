@@ -1,0 +1,536 @@
+.c-configurator {
+	padding: 30px;
+}
+.c-configurator__split-title {
+	font-family: Favorit Light, sans-serif;
+	/* font-size: 30px;*/
+	font-size: 1.875rem;
+	font-weight: 200;
+	line-height: 36px;
+	margin-bottom: 0;
+}
+.c-configurator h2 {
+	display: block;
+	/* font-size: 1.5em;*/
+	padding:0px;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;/* font-weight: bold;*/
+}
+.c-configurator__split-title span {
+	font-family: Favorit Medium, sans-serif;
+	font-weight: 400;
+}
+.c-configurator__split-title {
+	/* font-family: Favorit Light,sans-serif;
+    font-size: 30px;*/
+	font-size: 1.875rem;
+	/* font-weight: 200;*/
+	line-height: 36px;
+	margin-bottom: 0;
+}
+.c-configurator__price {
+	/* font-size: 20px;*/
+	font-size: 1.25rem;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+.c-configurator p {
+	/* display: block;
+    margin-block-start: 1em;*/
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-bottom: 0 !important;
+	padding-bottom:0 !important;
+}
+.c-configurator form {
+	/*display: block;*/
+	margin-top: 0em;
+}
+.c-configurator .c-footer-box {
+	
+}
+.c-slider__inner--configurator {
+	position: relative;
+}
+.slick-list, .slick-slider {
+	display: block;/* position: relative;*/
+}
+.slick-slider {
+	/* -webkit-touch-callout: none;*/
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	touch-action: pan-y;
+	/*-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;*/
+	user-select: none;/*-khtml-user-select: none;*/
+}
+.c-configurator dl, .c-configurator ol, .c-configurator ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.c-configurator ul {
+	/* display: block;
+    list-style-type: disc;*/
+	list-style:none;
+	padding:0px !important;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;/*  padding-inline-start: 40px;*/
+}
+.c-slider__inner--petrol:before {
+    background-image: url(https://www.mg.co.uk/themes/custom/mg/assets/images/svg/petrol-icon-white.svg);
+}
+.c-slider__inner--configurator:before {
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	display: block;
+	filter: invert(1%) sepia(7%) saturate(694%) hue-rotate( 241deg) brightness(118%) contrast(91%);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+	transform: translateZ(0);
+}
+.slick-list {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.slick-list, .slick-slider {
+	display: block;
+	position: relative;
+}
+.slick-track {
+	display: block;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 0;
+}
+.slick-track:after, .slick-track:before {
+	content: "";
+	display: table;
+}
+.slick-track:after {
+	clear: both;
+}
+.slick-track:after, .slick-track:before {
+	content: "";
+	display: table;
+}
+.slick-initialized .slick-slide {
+	display: block;
+}
+.c-slider__item {
+	position: relative;/* width: 100%;*/
+}
+.slick-slide {
+	/*display: none;*/
+	float: left;
+	/* height: 100%;*/
+	min-height: 1px;
+}
+.c-configurator li {
+	/* display: list-item;*/
+	text-align: -webkit-match-parent;
+}
+.c-configurator img {
+	/* display: block;*/
+	flex: none;
+	height: auto;
+	max-width: 100%;
+}
+.c-configurator img {
+	border-style: none;
+}
+.c-configurator li {
+	text-align: -webkit-match-parent;
+}
+.c-slider__info {
+	color: #a2a2a2;
+	font-family: Favorit Book, sans-serif;
+}
+.c-configurator__colour-title {
+	font-family: Favorit Light, sans-serif;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 200;
+	line-height: 1;
+}
+.c-configurator__colour-title span {
+	font-family: Favorit Medium, sans-serif;
+	font-weight: 600;
+}
+.c-form__select {
+	background-color: #fff;
+	background-image: url(/themes/custom/mg/assets/images/svg/chevron.svg);
+	background-position: center right 10px;
+	background-repeat: no-repeat;
+	background-size: 13px 8px;
+   /* font-size: 15px;*/
+    font-size: .9375rem;
+	line-height: 2;
+	/* padding-right: 35px;*/
+	position: relative;
+}
+.c-form__label, .c-form__select {
+	font-family: Favorit Book, sans-serif;
+}
+.c-configurator select {
+	-webkit-appearance: none;
+	/* -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;*/
+	border: 1px solid #d8d8d8;
+	height: 45px;
+	/*line-height: 1.15;*/
+	padding: 0 10px;
+	width: 95%;
+}
+.c-configurator button, .c-configurator fieldset, .c-configurator input, .c-configurator legend, .c-configurator optgroup, .c-configurator option, .c-configurator select, .c-configurator textarea {
+	color: #000;
+	display: block;/*  font-family: inherit;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.875;*/
+}
+.c-configurator button, .c-configurator select {
+	text-transform: none;
+}
+.c-configurator button, .c-configurator input, .c-configurator optgroup, .c-configurator select, .c-configurator textarea {
+	/* font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;*/
+	margin: 0;
+}
+.c-configurator select:not(:-internal-list-box) {
+	overflow: visible !important;
+}
+.c-configurator select {
+	-webkit-writing-mode: horizontal-tb !important;
+	/* font-size: ;
+    font-family: ;*/
+	text-rendering: auto;
+	/* color: -internal-light-dark(black, white);*/
+	letter-spacing: normal;
+	word-spacing: normal;
+	/* line-height: normal;
+    text-transform: none;*/
+	text-indent: 0px;
+	text-shadow: none;
+	/* display: inline-block;*/
+	text-align: start;
+	/* appearance: auto;
+    box-sizing: border-box;*/
+	align-items: center;
+	white-space: pre;
+	-webkit-rtl-ordering: logical;
+	/*background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));*/
+	cursor: default;
+	/* margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;*/
+	border-radius: 0px;
+}
+.c-configurator button, .c-configurator fieldset, .c-configurator input, .c-configurator legend, .c-configurator optgroup, .c-configurator option, .c-configurator select, .c-configurator textarea {
+	color: #000;
+	display: block;
+}
+.c-configurator option {
+	font-weight: normal;
+	/* display: block;*/
+	white-space: nowrap;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+}
+.c-configurator__list {
+	color: #585858;
+	font-family: Favorit Book, sans-serif;
+	margin-top: 10px;
+}
+.c-configurator ul ul {
+	/* list-style-type: circle;*/
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+.c-configurator__box--colour {
+	display: flex;
+}
+.c-configurator__box {
+	margin-top: 20px;
+}
+.c-configurator__colour {
+	margin-right: auto;
+}
+.c-configurator__colour-picker--hello-yellow {
+	background-color: #eed11a;
+}
+.c-configurator__colour-picker {
+	border: 2px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin-left: 5px;
+	position: relative;
+	width: 30px;
+}
+.c-configurator__colour-picker.is-active:after, .c-configurator__colour-picker.is-active:before {
+	opacity: 1;
+}
+.c-configurator__colour-picker:after, .c-configurator__colour-picker:before {
+	background-color: #fff;
+	content: "";
+	display: block;
+	height: 15px;
+	left: 50%;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .2s ease-in;
+	width: 2px;
+	z-index: 1;
+}
+.c-configurator [type=checkbox]:checked, .c-configurator [type=checkbox]:not(:checked), .c-configurator [type=radio]:checked, .c-configurator [type=radio]:not(:checked) {
+	left: -9999px;
+	position: absolute;
+}
+.c-configurator input[type=checkbox], .c-configurator input[type=radio] {
+	display: inline-block;
+	vertical-align: middle;
+}
+.c-configurator [type=checkbox], .c-configurator [type=radio] {
+ box-sizing: border-box;
+ padding: 0;
+}
+.c-configurator button, .c-configurator input {
+	overflow: visible;
+}
+.c-configurator input[type="radio" i] {
+ background-color: initial;
+ cursor: default;
+   /* appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;*/
+    border: initial;
+}
+.c-configurator input {
+	-webkit-writing-mode: horizontal-tb !important;
+	/*font-size: ;
+    font-family: ;*/
+	text-rendering: auto;
+	/* color: -internal-light-dark(black, white);*/
+	letter-spacing: normal;
+	word-spacing: normal;
+	/*  line-height: normal;*/
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	/* display: inline-block;*/
+	text-align: start;
+	/*appearance: auto;*/
+	-webkit-rtl-ordering: logical;/* cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;*/
+}
+.c-configurator__colour-picker:after {
+	transform: translate(-50%, -50%) rotate( 90deg);
+}
+.c-configurator__colour-picker--arctic-white {
+	background-color: #fafafa;
+}
+.c-configurator__colour-picker--black-pearl {
+	background-color: #111;
+}
+.c-configurator__colour-picker--southwark-silver {
+	background-color: #959595;
+}
+.c-configurator address, .c-configurator blockquote, .c-configurator fieldset, .c-configurator figure, .c-configurator h1, .c-configurator h2, .c-configurator h3, .c-configurator h4, .c-configurator h5, .c-configurator h6, .c-configurator p, .c-configurator pre, .c-configurator table {
+	margin-bottom: 20px;
+}
+.c-configurator__buttons {
+	margin-top: 20px;
+}
+.c-configurator__btn {
+	margin-bottom: 10px;
+	text-align: left;
+	width: 80%;
+}
+.c-button--petrol {
+	border-right: 16px solid #6881e7;
+}
+.c-button--primary {
+	color: #fff;
+	display: block;
+	font-family: Favorit Medium, sans-serif;
+	line-height: 45px;
+	min-height: 45px;
+	overflow: hidden;
+	padding: 0 20px;
+	position: relative;
+	/* text-align: center;*/
+	transition: color .35s ease-in-out;
+	white-space: nowrap;
+	/*  width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;*/
+	z-index: 0;
+}
+.c-configurator a {
+	/*  color: inherit;*/
+	text-decoration: none;
+}
+.c-configurator a {
+	/* -webkit-text-decoration-skip: objects;*/
+	background-color: transparent;
+}
+.c-configurator a:-webkit-any-link {
+   /* color: -webkit-link;
+    text-decoration: underline;*/
+    cursor: pointer;
+}
+.c-button--primary:before {
+	/*background-color: #000;*/
+	content: "";
+	display: block;
+	height: 100%;
+	inset: 0 auto auto 0;
+	opacity: 1;
+	position: absolute;
+	width: 97%;
+	z-index: -1;
+}
+.c-button--petrol:after {
+	/*background-color: #6881e7;*/
+}
+.c-button--primary:after {
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -2;
+}
+@media screen and (min-width: 1400px) {
+.c-configurator {
+	padding-left: 180px;
+	padding-right: 80px;
+}
+.c-configurator__wrapper {
+	min-height: 475px;
+}
+.c-configurator img {
+	/* display: block;*/
+	flex: none;
+	height: auto;
+	max-width: 200%;
+}
+}
+@media screen and (min-width: 1200px) {
+.c-configurator {
+	padding-top: 100px;
+}
+.c-slider--configurator {
+	padding-left: 60px;
+}
+.c-button--primary:before {
+	transition-duration: .35s;
+}
+}
+@media screen and (min-width: 1024px) {
+.c-configurator__wrapper {
+	/*  display: flex;*/
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	min-height: 400px;
+}
+.c-slider--configurator {
+	margin-top: -76px;
+	/* max-width: 65%;*/
+	padding-left: 130px;
+	width: 100%;
+	margin-bottom: -280px;
+}
+.c-configurator__config {
+	max-width: 35%;
+	position: relative;
+	z-index: 1;
+}
+.c-configurator__buttons {
+	align-self: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top: 0;
+	position: relative;
+	width: 100%;
+}
+.c-configurator__btn {
+	margin-bottom: 0;
+	margin-left: 15px;
+	width: auto;
+}
+.c-configurator img {
+	/* display: block;*/
+	flex: none;
+	height: auto;
+	max-width: 200%;
+}
+}
+@media screen and (min-width: 768px) {
+.c-configurator {
+	padding-top: 60px;
+}
+.c-configurator__split-title {
+	font-size: 40px;
+	font-size: 2.5rem;
+	line-height: 46px;
+}
+.c-slider__info {
+	display: none;
+}
+.c-configurator__config {
+	max-width: 35%;
+	width: 100%;
+}
+.c-configurator__box {
+	-webkit-column-break-inside: avoid;
+}
+button, fieldset, input, legend, optgroup, option, select, textarea {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.875;
+}
+.c-configurator__buttons {
+	width: 95%;
+}
+.c-configurator img {
+	/* display: block;*/
+	flex: none;
+	height: auto;
+	max-width: 200%;
+}
+}
